@@ -1,0 +1,39 @@
+{
+    "name": "wudl-cli",
+    "version": "1.0.1",
+    "description": "wudl工具库",
+    "main": "index.js",
+    "bin": {
+        "wudl": "bin/www"
+    },
+    "dependencies": {
+        "axios": "^0.26.1",
+        "chalk": "^4.1.2",
+        "commander": "^8.3.0",
+        "fs-extra": "^10.0.0",
+        "inquirer": "^8.2.0",
+        "mkdirp": "^1.0.4",
+        "nzh": "^1.0.5",
+        "ora": "5.4",
+        "prompts": "^2.4.2",
+        "shelljs": "^0.8.4",
+        "ssh2-sftp-client": "^7.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "wudl-cli",
+        "wudl-tools",
+        "wudl-cli"
+    ],
+    "author": "wudl",
+    "license": "ISC",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
